@@ -240,7 +240,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      $(this).addClass("active active-tag"); //added the active class to the selected tag to fix the bug of color.
 
       var tag = $(this).data("images-toggle");
 
